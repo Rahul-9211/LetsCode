@@ -1,0 +1,238 @@
+body{
+    
+    background: #c0ffce;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    font-family: Arial, Helvetica , sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Question Home section  */
+#Ques_home{
+    height: 100%;
+    width: 95% ;
+    margin: auto;
+    /* display: flex; */
+    /* background-color: #f2f3f5; */
+    background-color: #c0ffce;
+    padding-top: 100px;
+}
+
+/* Topic Header  */
+#Ques_home .upper{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#Ques_home .upper .topic_header{
+    border: 1px solid #d6d6d6;
+    height: 600px;
+    width: 32%;
+    background-color: white;
+}
+#Ques_home .upper .topic_header .topic_section ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    /* align-items: center; */
+    height: 600px;
+}
+#Ques_home .upper .topic_header .topic_section ul li{
+    list-style: none;
+    height: 75px;
+    border-bottom: 1px solid #d6d6d6;
+}
+#Ques_home .upper .topic_header .topic_section ul li:hover{
+    background-color:  #d2fcdb;
+}
+#Ques_home .upper .topic_header .topic_section ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+#Ques_home .upper .topic_header .topic_section ul li a div{
+    padding: 25px;
+    font-size: 20px;
+}
+
+/* content header 1  */
+#Ques_home .upper  .content_header_1{
+    height: 600px;
+    width: 66%;
+    background: transparent;
+    margin: 0px 10px;
+}
+
+/* C intro box  Ques-1 */
+#Ques_home .upper  .content_header_1 .ques1_C{
+    border: 1px solid #d6d6d6;
+    height: 290px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 20px;
+}
+.heading{
+    height: 60px;
+}
+.heading a{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+    color:rgba(4, 168, 18, 0.87);
+}
+.heading a:hover{
+    color: rgba(4, 121, 14, 0.87);
+}
+.update{
+    height: 20px;
+}
+.content{
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.content p{
+    font-size: 17.3px;
+}
+.content p a{
+    font-weight: 700;
+    text-decoration: none;
+    color:rgba(27, 18, 5, 0.336);
+}
+.content p a:hover{
+    color:#000000b2;
+    text-decoration: underline;
+}
+.list ul{
+    display: flex;
+    height: 40px;
+    align-items: flex-end;
+}
+.list ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: #3aab00;
+}
+.list ul li a:hover{
+    color: #55ff00;
+}
+
+/* C++  is " CC " Into box  Ques-1*/
+#Ques_home .upper  .content_header_1 .ques1_CC{
+    margin-top: 19px;
+    border: 1px solid #d6d6d6;
+    height: 290px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 20px;
+}
+
+/* Lower Content Box  */
+#Ques_home .lower{
+    display: flex;
+}
+/* Lower Content header 2 left  */
+#Ques_home .lower .content_header_2{
+    height: 1000px;
+    width: 49%;
+    background: transparent;
+}
+
+/* Python intro box  Ques-1 */
+#Ques_home .lower  .content_header_2 .ques1_python{
+    border: 1px solid #d6d6d6;
+    height: 290px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 20px;
+}
+
+/* Java intro box  Ques-1 */
+#Ques_home .lower  .content_header_2 .ques1_java{
+    margin-top: 19px;
+    border: 1px solid #d6d6d6;
+    height: 290px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 20px;
+}
+
+/* html intro box  Ques-1 */
+#Ques_home .lower  .content_header_2 .ques1_html{
+    margin-top: 19px;
+    border: 1px solid #d6d6d6;
+    height: 290px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 20px;
+}
+
+
+/* Lower content header 3 right  */
+#Ques_home .lower .content_header_3{
+    width: 48%;
+    background: transparent;
+    margin-left: 10px;
+}
+/* Ruby intro box  Ques-1 */
+#Ques_home .lower  .content_header_3 .ques1_ruby{
+    border: 1px solid #d6d6d6;
+    height: 290px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 20px;
+}
+
+/* DSA intro box  Ques-1 */
+#Ques_home .lower  .content_header_3 .ques1_DSA{
+    margin-top: 19px;
+    border: 1px solid #d6d6d6;
+    height: 290px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 20px;
+}
+
+/* CSS intro box  Ques-1 */
+#Ques_home .lower  .content_header_3 .ques1_CSS{
+    margin-top: 19px;
+    border: 1px solid #d6d6d6;
+    height: 290px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 20px;
+}
+
+ /* FOOTER SEction  */
+#Ques_footer{
+    position: absolute;
+    bottom: 0px;
+    right: 10%;
+}
+
